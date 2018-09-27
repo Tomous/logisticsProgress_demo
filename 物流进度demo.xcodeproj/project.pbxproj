@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F8A1D8D50F30A34902BB56 /* libPods-物流进度demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A084AE24D0E5771B41F34006 /* libPods-物流进度demo.a */; };
 		802AED87215CCD9000567A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AED86215CCD9000567A6C /* AppDelegate.m */; };
 		802AED8A215CCD9000567A6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AED89215CCD9000567A6C /* ViewController.m */; };
 		802AED8D215CCD9000567A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802AED8B215CCD9000567A6C /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		802AED95215CCD9300567A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AED94215CCD9300567A6C /* main.m */; };
 		802AED9F215CCD9300567A6C /* ____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AED9E215CCD9300567A6C /* ____demoTests.m */; };
 		802AEDAA215CCD9300567A6C /* ____demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AEDA9215CCD9300567A6C /* ____demoUITests.m */; };
+		802AEDBA215CCE5F00567A6C /* DCGisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AEDB9215CCE5F00567A6C /* DCGisticsView.m */; };
+		802AEDBD215CCE9900567A6C /* DCGisticsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AEDBC215CCE9900567A6C /* DCGisticsCell.m */; };
+		802AEDC0215CCEFC00567A6C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AEDBE215CCEFC00567A6C /* UIView+Extension.m */; };
+		802AEDE2215CDB3C00567A6C /* DCGisticsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AEDC2215CCF6D00567A6C /* DCGisticsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71D70853643FBE9CB8DD36B3 /* Pods-物流进度demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-物流进度demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-物流进度demo/Pods-物流进度demo.release.xcconfig"; sourceTree = "<group>"; };
 		802AED82215CCD9000567A6C /* 物流进度demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "物流进度demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802AED85215CCD9000567A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		802AED86215CCD9000567A6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,17 @@
 		802AEDA5215CCD9300567A6C /* 物流进度demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "物流进度demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802AEDA9215CCD9300567A6C /* ____demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____demoUITests.m"; sourceTree = "<group>"; };
 		802AEDAB215CCD9300567A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802AEDB7215CCDB100567A6C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		802AEDB8215CCE5F00567A6C /* DCGisticsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGisticsView.h; sourceTree = "<group>"; };
+		802AEDB9215CCE5F00567A6C /* DCGisticsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGisticsView.m; sourceTree = "<group>"; };
+		802AEDBB215CCE9900567A6C /* DCGisticsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGisticsCell.h; sourceTree = "<group>"; };
+		802AEDBC215CCE9900567A6C /* DCGisticsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGisticsCell.m; sourceTree = "<group>"; };
+		802AEDBE215CCEFC00567A6C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		802AEDBF215CCEFC00567A6C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		802AEDC1215CCF6D00567A6C /* DCGisticsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCGisticsModel.h; sourceTree = "<group>"; };
+		802AEDC2215CCF6D00567A6C /* DCGisticsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCGisticsModel.m; sourceTree = "<group>"; };
+		9430AE51A62D256ED7DF68CE /* Pods-物流进度demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-物流进度demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-物流进度demo/Pods-物流进度demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A084AE24D0E5771B41F34006 /* libPods-物流进度demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-物流进度demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F8A1D8D50F30A34902BB56 /* libPods-物流进度demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				802AED9D215CCD9300567A6C /* 物流进度demoTests */,
 				802AEDA8215CCD9300567A6C /* 物流进度demoUITests */,
 				802AED83215CCD9000567A6C /* Products */,
+				AA9E3D30A326BB94E76AF4F8 /* Pods */,
+				92A14943949C0E42F263FCCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +125,15 @@
 				802AED86215CCD9000567A6C /* AppDelegate.m */,
 				802AED88215CCD9000567A6C /* ViewController.h */,
 				802AED89215CCD9000567A6C /* ViewController.m */,
+				802AEDE1215CD8A000567A6C /* Gistics */,
+				802AEDBF215CCEFC00567A6C /* UIView+Extension.h */,
+				802AEDBE215CCEFC00567A6C /* UIView+Extension.m */,
 				802AED8B215CCD9000567A6C /* Main.storyboard */,
 				802AED8E215CCD9300567A6C /* Assets.xcassets */,
 				802AED90215CCD9300567A6C /* LaunchScreen.storyboard */,
 				802AED93215CCD9300567A6C /* Info.plist */,
 				802AED94215CCD9300567A6C /* main.m */,
+				802AEDB7215CCDB100567A6C /* PrefixHeader.pch */,
 			);
 			path = "物流进度demo";
 			sourceTree = "<group>";
@@ -132,6 +156,36 @@
 			path = "物流进度demoUITests";
 			sourceTree = "<group>";
 		};
+		802AEDE1215CD8A000567A6C /* Gistics */ = {
+			isa = PBXGroup;
+			children = (
+				802AEDB8215CCE5F00567A6C /* DCGisticsView.h */,
+				802AEDB9215CCE5F00567A6C /* DCGisticsView.m */,
+				802AEDBB215CCE9900567A6C /* DCGisticsCell.h */,
+				802AEDBC215CCE9900567A6C /* DCGisticsCell.m */,
+				802AEDC1215CCF6D00567A6C /* DCGisticsModel.h */,
+				802AEDC2215CCF6D00567A6C /* DCGisticsModel.m */,
+			);
+			path = Gistics;
+			sourceTree = "<group>";
+		};
+		92A14943949C0E42F263FCCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A084AE24D0E5771B41F34006 /* libPods-物流进度demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA9E3D30A326BB94E76AF4F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9430AE51A62D256ED7DF68CE /* Pods-物流进度demo.debug.xcconfig */,
+				71D70853643FBE9CB8DD36B3 /* Pods-物流进度demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 802AEDAE215CCD9300567A6C /* Build configuration list for PBXNativeTarget "物流进度demo" */;
 			buildPhases = (
+				FAB6DCC14E9C8B0C0A05CA96 /* [CP] Check Pods Manifest.lock */,
 				802AED7E215CCD9000567A6C /* Sources */,
 				802AED7F215CCD9000567A6C /* Frameworks */,
 				802AED80215CCD9000567A6C /* Resources */,
@@ -257,13 +312,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FAB6DCC14E9C8B0C0A05CA96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-物流进度demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		802AED7E215CCD9000567A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802AEDE2215CDB3C00567A6C /* DCGisticsModel.m in Sources */,
+				802AEDC0215CCEFC00567A6C /* UIView+Extension.m in Sources */,
 				802AED8A215CCD9000567A6C /* ViewController.m in Sources */,
 				802AED95215CCD9300567A6C /* main.m in Sources */,
+				802AEDBD215CCE9900567A6C /* DCGisticsCell.m in Sources */,
+				802AEDBA215CCE5F00567A6C /* DCGisticsView.m in Sources */,
 				802AED87215CCD9000567A6C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +513,12 @@
 		};
 		802AEDAF215CCD9300567A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9430AE51A62D256ED7DF68CE /* Pods-物流进度demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/物流进度demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "物流进度demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +532,12 @@
 		};
 		802AEDB0215CCD9300567A6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D70853643FBE9CB8DD36B3 /* Pods-物流进度demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/物流进度demo/PrefixHeader.pch";
 				INFOPLIST_FILE = "物流进度demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
